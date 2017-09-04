@@ -17,6 +17,7 @@
   /** @ngInject */
   function routeConfig($urlRouterProvider, baSidebarServiceProvider) {
     $urlRouterProvider.otherwise('/candidates');
+
   }
 
 })();

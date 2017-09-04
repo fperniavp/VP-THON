@@ -22,11 +22,11 @@
     $scope.person = {
     	   "id": 1,
     	   "firstName": "Fabian",
-    	   "lastName": "Otto",
-    	   "email": "mdo@gmail.com",
-    	   "age": "28",
+    	   "lastName": "Pernía",
+    	   "email": "fablexis@gmail.com",
+    	   "age": "26",
     	   "gender": "M",
-    	   "skypeId": "fap",
+    	   "skypeId": "ale_stl",
     	   "social": ["fabian.linkedin", "@github"],
     	   "skills": [
     	      {"id": 1, "name": "js", "experience": 4, "level": 5},
