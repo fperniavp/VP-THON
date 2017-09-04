@@ -1,7 +1,3 @@
-/**
- * @author v.lugovsky
- * created on 16.12.2015
- */
 (function () {
   'use strict';
 
@@ -21,46 +17,34 @@
       var fileInput = document.getElementById('uploadFile');
       fileInput.click();
 
+    };      
+    
+    $scope.person = {
+    	   "id": 1,
+    	   "firstName": "Fabian",
+    	   "lastName": "Otto",
+    	   "email": "mdo@gmail.com",
+    	   "age": "28",
+    	   "gender": "M",
+    	   "skypeId": "fap",
+    	   "social": ["fabian.linkedin", "@github"],
+    	   "skills": [
+    	      {"id": 1, "name": "js", "experience": 4, "level": 5},
+    	      {"id": 2, "name": "jquery", "experience": 2, "level": 3}
+    	   ]
+    	};
+    
+    $scope.skill = {}; 
+    
+    $scope.addSkill = function () {
+    	$scope.person.skills.push($scope.skill);
+    	$scope.skill = {};    
     };
-
-    $scope.socialProfiles = [
-      {
-        name: 'Facebook',
-        href: 'https://www.facebook.com/akveo/',
-        icon: 'socicon-facebook'
-      },
-      {
-        name: 'Twitter',
-        href: 'https://twitter.com/akveo_inc',
-        icon: 'socicon-twitter'
-      },
-      {
-        name: 'Google',
-        icon: 'socicon-google'
-      },
-      {
-        name: 'LinkedIn',
-        href: 'https://www.linkedin.com/company/akveo',
-        icon: 'socicon-linkedin'
-      },
-      {
-        name: 'GitHub',
-        href: 'https://github.com/akveo',
-        icon: 'socicon-github'
-      },
-      {
-        name: 'StackOverflow',
-        icon: 'socicon-stackoverflow'
-      },
-      {
-        name: 'Dribbble',
-        icon: 'socicon-dribble'
-      },
-      {
-        name: 'Behance',
-        icon: 'socicon-behace'
-      }
-    ];
+    
+    $scope.removeSkill = function (index) {
+        $scope.person.skills.splice(index, 1);
+      };
+    
 
     $scope.unconnect = function (item) {
       item.href = undefined;
