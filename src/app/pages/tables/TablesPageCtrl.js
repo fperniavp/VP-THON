@@ -123,14 +123,14 @@
       },
       {
         id: 7,
-        fullName: 'Test 2',
+        fullName: 'Juan Armas',
         expertise: 'Java',
         skype: 'the_123',
         seniority: 'Ssr 2',
         age: '42'
       },{
         id: 8,
-        fullName: 'Test 3',
+        fullName: 'Mark Allen',
         expertise: 'Java',
         skype: 'welcome123_5',
         seniority: 'Ssr 1',
@@ -138,7 +138,7 @@
       },
       {
         id: 9,
-        fullName: 'Test 4',
+        fullName: 'Robert DowneyJr',
         expertise: 'QA',
         skype: 'vpv_525',
         seniority: 'Ssr 1',
@@ -146,7 +146,7 @@
       },
       {
         id: 10,
-        fullName: 'Test 5',
+        fullName: 'Ricardo Arjona',
         expertise: 'C++',
         skype: 'HB3232',
         seniority: 'Ssr 1',
@@ -154,7 +154,7 @@
       },
       {
         id: 11,
-        fullName: 'Test 6',
+        fullName: 'Marilyn Manson',
         expertise: 'C++',
         skype: 'welcome123',
         seniority: 'Team Lead',
@@ -162,7 +162,7 @@
       },
       {
         id: 12,
-        fullName: 'Test 7',
+        fullName: 'Homero Simpson',
         expertise: 'Javascript',
         skype: 'El_programador_1',
         seniority: 'Sr 2',
@@ -170,15 +170,15 @@
       },
       {
         id: 13,
-        fullName: 'Test 8',
+        fullName: 'Jefrey Dean Morgan',
         expertise: 'C#',
         skype: 'Ralph_17',
         seniority: 'Team Lead',
-        age: '40'
+        age: '50'
       },
       {
         id: 14,
-        fullName: 'Test 9',
+        fullName: 'Monty Burns',
         expertise: 'QA',
         skype: 'the_123',
         seniority: 'Ssr 2',
@@ -186,7 +186,7 @@
       },
       {
         id: 15,
-        fullName: 'Test 10',
+        fullName: 'David Beckham',
         expertise: 'Pyton',
         skype: 'snake17',
         seniority: 'Ssr 1',
@@ -195,18 +195,5 @@
     ];
 
     $scope.editableTableData = $scope.smartTableData.slice(0, 36);
-
-    $scope.getRecords = function(){
-      $scope.smartTableData.push({
-        "id": 0,
-        "firstName": "AAA",
-        "lastName": "Conner",
-        "username": "@Sanchez",
-        "email": "lousanchez@comtours.com",
-        "age": 16
-      })
-
-      console.log($scope.smartTableData)
-    }
   }
 })();
