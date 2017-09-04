@@ -9,11 +9,11 @@ h1.color, h2.color, h3.color, h4.color, h5.color, h6.color {
 }
 
 body a {
-  color: $activelink;
+  color: #BC1019;;
   text-decoration: none !important;
   transition: color 0.2s ease;
   &:hover {
-    color: $hoverlink;
+    color: #8E0E15;
   }
 }
 
