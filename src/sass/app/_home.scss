@@ -1,0 +1,16 @@
+.home{
+    ul{
+        list-style: none;
+    }
+    .cd-pricing{
+        &-wrapper{
+            .cd-price{
+                margin-top: 45px;
+            }
+        }
+        
+        &-wrapper, &-features{
+            padding: 0;
+        }
+    }
+}

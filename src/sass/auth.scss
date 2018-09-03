@@ -68,6 +68,12 @@ $text-color: #ffffff;
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .auth-block {
+    width: 350px !important;
+  }
+}
+
 .auth-input {
   width: 300px;
   margin-bottom: 24px;
